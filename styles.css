@@ -1,7 +1,76 @@
-
-
-
 p {
     color: brown;
     padding: 30px;
+}
+
+#main-page {
+    color: chartreuse;
+    padding: 30px;
+}
+
+
+/*para pegar a fonte em toda a página*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: blueviolet;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1, h2, h3 {
+    padding: 20px;
+}
+
+.my-content {
+    color: red;
+    background-color: cyan;
+    padding: 20px;
+}
+
+.background-default {
+    color: azure;
+    background-color: darkorange;
+}
+
+.hexa {
+    color: chartreuse;
+    background-color: blue;
+}
+
+.rgb {
+    color: aqua;
+    background-color: rgb(255, 0 , 0);
+}
+
+.color-name {
+    color: aqua;
+    background-color: black;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.big-text {
+    font-size: 40px;
+}
+
+.heavy-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
 }
